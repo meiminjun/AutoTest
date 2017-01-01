@@ -1,0 +1,45 @@
+23:44:44.636 INFO - Launching a standalone Selenium Server
+23:44:44.676 INFO - Java: Oracle Corporation 25.111-b14
+23:44:44.676 INFO - OS: Mac OS X 10.11.6 x86_64
+23:44:44.686 INFO - v2.53.1, with Core v2.53.1. Built from revision a36b8b1
+23:44:44.757 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
+23:44:44.758 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
+23:44:44.758 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+23:44:44.758 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+23:44:44.760 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
+23:44:44.760 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
+23:44:44.837 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+23:44:44.837 INFO - Selenium Server is up and running
+23:44:45.193 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Demo, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+23:44:45.203 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Demo, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.25.426935 (820a95b0b81d33e42712f9198c215f703412e1a1) on port 33605
+Only local connections are allowed.
+23:44:46.545 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Demo, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+23:44:46.563 INFO - Executing: [get: http://bing.com])
+23:44:47.738 INFO - Done: [get: http://bing.com]
+23:44:47.749 INFO - Executing: [maximise window])
+23:44:48.130 INFO - Done: [maximise window]
+23:44:48.140 INFO - Executing: [find elements: By.cssSelector: body])
+23:44:48.181 INFO - Done: [find elements: By.cssSelector: body]
+23:44:48.189 INFO - Executing: [find elements: By.cssSelector: body])
+23:44:48.208 INFO - Done: [find elements: By.cssSelector: body]
+23:44:48.224 INFO - Executing: [find elements: By.cssSelector: #sb_form_q])
+23:44:48.263 INFO - Done: [find elements: By.cssSelector: #sb_form_q]
+23:44:48.268 INFO - Executing: [is displayed: 1 [[ChromeDriver: chrome on MAC (1831e488bfdea09f478658b3e44a83a4)] -> css selector: #sb_form_q]])
+23:44:48.285 INFO - Done: [is displayed: 1 [[ChromeDriver: chrome on MAC (1831e488bfdea09f478658b3e44a83a4)] -> css selector: #sb_form_q]]
+23:44:50.295 INFO - Executing: [find element: By.cssSelector: #sb_form_q])
+23:44:54.770 INFO - Done: [find element: By.cssSelector: #sb_form_q]
+23:44:54.776 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on MAC (1831e488bfdea09f478658b3e44a83a4)] -> css selector: #sb_form_q], [平, 安, 银, 行]])
+23:44:54.835 INFO - Done: [send keys: 1 [[ChromeDriver: chrome on MAC (1831e488bfdea09f478658b3e44a83a4)] -> css selector: #sb_form_q], [平, 安, 银, 行]]
+23:44:54.842 INFO - Executing: [find element: By.cssSelector: #sb_form_go])
+23:44:54.865 INFO - Done: [find element: By.cssSelector: #sb_form_go]
+23:44:54.869 INFO - Executing: [click: 2 [[ChromeDriver: chrome on MAC (1831e488bfdea09f478658b3e44a83a4)] -> css selector: #sb_form_go]])
+23:44:55.559 INFO - Done: [click: 2 [[ChromeDriver: chrome on MAC (1831e488bfdea09f478658b3e44a83a4)] -> css selector: #sb_form_go]]
+23:44:57.568 INFO - Executing: [find elements: By.cssSelector: body])
+23:45:02.571 INFO - Done: [find elements: By.cssSelector: body]
+23:45:02.578 INFO - Executing: [take screenshot])
+23:45:02.775 INFO - Done: [take screenshot]
+23:45:02.822 INFO - Executing: [delete session: d0c1f9fa-337e-4a6a-a408-09c5708fc8e2])
+23:45:02.976 INFO - Done: [delete session: d0c1f9fa-337e-4a6a-a408-09c5708fc8e2]
