@@ -8,7 +8,6 @@ module.exports = {
     // 启动浏览器并打开 bing.com.
     client.url('http://bing.com').maximizeWindow()
 
-    client.expect.element('body').to.be.present
     // 确保 "body" 和输入框可以使用.
     client.expect.element('body').to.be.present
     client.expect.element(searchInput).to.be.visible
